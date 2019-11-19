@@ -5,7 +5,7 @@ Follow the installation instruction here: http://prosa.mpi-sws.org/
 Setup Instructions for Ubuntu Linux are found here:
 http://prosa.mpi-sws.org/setup-instructions.html
 
-the OS on the office-working-station:
+The OS on the office-working-station:
 
     almeroth@almeroth:~/Dokumente/Forschung/prosa$ cat /etc/os-release
     NAME="Ubuntu"
@@ -22,7 +22,7 @@ the OS on the office-working-station:
     UBUNTU_CODENAME=bionic
 
 
-Coq is already installed
+Coq is already installed on my machine.
 
 Get your preferd version of Prosa from here:
 http://prosa.mpi-sws.org/get-prosa.html
@@ -30,31 +30,31 @@ http://prosa.mpi-sws.org/get-prosa.html
 
 I chose the latest stable relase:
 
-Prosa 0.3 Released on July 17th, 2018. 
-    Coq 8.7.0 and mathcomp 1.6.4
+    Prosa 0.3 Released on July 17th, 2018. 
+    Coq 8.7.0 and 
+    mathcomp 1.6.4
     
-I downloaded the archive, extracted it and made 
+I downloaded the archive, extracted it and bulid it. 
  cd Downloads/prosa/
  make
  
-then I follwed the installation instruction from the setup-instructions. 
+After I followed the installation instruction from the setup-instructions. 
 (http://prosa.mpi-sws.org/setup-instructions.html)
 
 1) Install OCaml and a few other required packages.
 
-    cd almeroth/Dokumente/Forschung/prosa/
+   $ cd almeroth/Dokumente/Forschung/prosa/
  
-    sudo apt-get install ocaml camlp5 libgtk2.0-dev                            liblablgtk2-ocaml-dev                            liblablgtksourceview2-ocaml-dev 
+   $ sudo apt-get install ocaml camlp5 libgtk2.0-dev                            liblablgtk2-ocaml-dev                            liblablgtksourceview2-ocaml-dev 
 
 You migth also need to enable the “universe” repository, which can be done with the following command:
 
- 1968  sudo add-apt-repository universe
+  $ sudo add-apt-repository universe
 ------------------------------------------------------------------------------------------------------------------
 Added this later (28.10.2019) :
 
 
-    Download and extract the latest release (version 1.8 at the time of writing) of the Mathematical Components library
-    from the mathematical Componens homepage: https://math-comp.github.io/. That is:
+Download and extract the latest release (version 1.8 at the time of writing) of the mathematical components library from the mathematical Componens homepage: https://math-comp.github.io/. That is:
 
 
 opam repo add coq-released https://coq.inria.fr/opam/released
@@ -243,5 +243,17 @@ this is how I actaully installed the mathematical components library:
 startedt coq ide in my home directory.
 opend /home/staff/almeroth/Dokumente/Forschung/prosa/test.v in coqide.
 errormessgae: coq-top died badly.
+
+
+---------------------------------------
  
+
+TODO: see at http://prosa.mpi-sws.org/releases/v0.1/artifact/
+      proceed with step 2. compiling PROSA  
+
 	 
+------------------------------------------
+
+TODO maybe: read this http://prosa.mpi-sws.org/releases/v0.1/artifact/
+
+-------------------------------------------
