@@ -1,8 +1,0 @@
-Set Up Instructions: http://prosa.mpi-sws.org/setup-instructions.html
-
-Coq was already installed
-
-install PROSA from http://prosa.mpi-sws.org/get-prosa.html#theprosarepository
-
-http://prosa.mpi-sws.org/get-started.html
-http://prosa.mpi-sws.org/get-started.html#essentialsyntaxprimer
