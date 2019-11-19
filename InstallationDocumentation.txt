@@ -1,0 +1,247 @@
+Prosa installation. Thuresday 22.10.19
+
+Follow the installation instruction here: http://prosa.mpi-sws.org/
+
+Setup Instructions for Ubuntu Linux are found here:
+http://prosa.mpi-sws.org/setup-instructions.html
+
+the OS on the office-working-station:
+
+    almeroth@almeroth:~/Dokumente/Forschung/prosa$ cat /etc/os-release
+    NAME="Ubuntu"
+    VERSION="18.04.3 LTS (Bionic Beaver)"
+    ID=ubuntu
+    ID_LIKE=debian
+    PRETTY_NAME="Ubuntu 18.04.3 LTS"
+    VERSION_ID="18.04"
+    HOME_URL="https://www.ubuntu.com/"
+    SUPPORT_URL="https://help.ubuntu.com/"
+    BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+    PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+    VERSION_CODENAME=bionic
+    UBUNTU_CODENAME=bionic
+
+
+Coq is already installed
+
+Get your preferd version of Prosa from here:
+http://prosa.mpi-sws.org/get-prosa.html
+
+
+I chose the latest stable relase:
+
+Prosa 0.3 Released on July 17th, 2018. 
+    Coq 8.7.0 and mathcomp 1.6.4
+    
+I downloaded the archive, extracted it and made 
+ cd Downloads/prosa/
+ make
+ 
+then I follwed the installation instruction from the setup-instructions. 
+(http://prosa.mpi-sws.org/setup-instructions.html)
+
+1) Install OCaml and a few other required packages.
+
+    cd almeroth/Dokumente/Forschung/prosa/
+ 
+    sudo apt-get install ocaml camlp5 libgtk2.0-dev                            liblablgtk2-ocaml-dev                            liblablgtksourceview2-ocaml-dev 
+
+You migth also need to enable the “universe” repository, which can be done with the following command:
+
+ 1968  sudo add-apt-repository universe
+------------------------------------------------------------------------------------------------------------------
+Added this later (28.10.2019) :
+
+
+    Download and extract the latest release (version 1.8 at the time of writing) of the Mathematical Components library
+    from the mathematical Componens homepage: https://math-comp.github.io/. That is:
+
+
+opam repo add coq-released https://coq.inria.fr/opam/released
+
+
+#
+almeroth@almeroth:~/Dokumente/Forschung/prosa$ opam repo add coq-released https://coq.iniria.fr/opam/released
+# opam-version    1.2.2
+# os              linux
+File /home/staffsi/almeroth/.opam/config does not existalmeroth@almeroth:~/Dokumente/Forschung/prosa$ ^C
+
+File /home/staffsi/almeroth/.opam/config does not existalmeroth@almeroth:~/Dokumente/Forschung/prosa$
+
+opam install coq-mathcomp-ssreflect
+
+ -------------------------------------------------------------------
+ 1969  cd path/to/extracted/coq
+ 1970  ./configure
+ 1971  make gallinahtml -j4
+ 1972  ls
+ 1973  vi create_makefile.sh 
+ 1974  vi Makefile
+ 1975  ls -l
+
+---------------------------------------------------------------------
+ some _CoqProject occured in almeroth/Dokumente/Forschung/prosa 
+---------------------------------------------------------------------
+ We test the installation:
+ 
+ 1976  kate test.txt  
+ 1977  kate test.txt
+ 1978  gvim test.v
+ 1979  coqide test.v
+ 1980  coqide
+ 1981  cd Dokumente
+ 1982  ls
+ 1983  cd Forschung/
+ 1984  ls
+ 1985  cd Coq/
+---------------------------------------------------------------------
+nothing happende
+---------------------------------------------------------------------
+
+started Coq IDE
+---------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+28.10.19
+
+this is how I actaully installed the mathematical components library:
+
+
+	almeroth@almeroth:~$ opam install coq-mathcomp-ssreflect
+	[ERROR] No OPAM root found at /home/staffsi/almeroth/.opam.
+		Please run 'opam init' to initialize the state of OPAM, or specify
+		'--root'.
+		See 'opam init --help' for details.
+	almeroth@almeroth:~$ opam init
+	Checking for available remotes: rsync and local, git, mercurial, darcs. Perfect!
+
+	=-=- Fetching repository information =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+	[default] synchronized from https://opam.ocaml.org
+	[NOTE] The repository 'default' will be *permanently* redirected to
+	       https://opam.ocaml.org/1.2.2 (opam-version < "2.0~")
+	[default] synchronized from https://opam.ocaml.org/1.2.2
+
+	=-=- Gathering sources =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+	=-=- Processing actions -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+	∗  installed base-bigarray.base
+	∗  installed base-threads.base
+	∗  installed base-unix.base
+	Done.
+
+	In normal operation, OPAM only alters files within ~/.opam.
+
+	During this initialisation, you can allow OPAM to add information to two
+	other files for best results. You can also make these additions manually
+	if you wish.
+
+	If you agree, OPAM will modify:
+
+	  - ~/.profile (or a file you specify) to set the right environment
+	    variables and to load the auto-completion scripts for your shell (bash)
+	    on startup. Specifically, it checks for and appends the following line:
+
+	    . /home/staffsi/almeroth/.opam/opam-init/init.sh > /dev/null 2> /dev/null
+	|| true
+
+
+	  - ~/.ocamlinit to ensure that non-system installations of `ocamlfind`
+	    (i.e. those installed by OPAM) will work correctly when running the
+	    OCaml toplevel. It does this by adding $OCAML_TOPLEVEL_PATH to the list
+	    of include directories.
+
+	If you choose to not configure your system now, you can either configure
+	OPAM manually (instructions will be displayed) or launch the automatic setup
+	later by running:
+
+	   opam config setup -a
+
+
+	Do you want OPAM to modify ~/.profile and ~/.ocamlinit?
+	(default is 'no', use 'f' to name a file other than ~/.profile)
+	    [N/y/f] n
+
+	Global configuration:
+	  Updating ~/.opam/opam-init/init.sh
+	  Updating ~/.opam/opam-init/init.zsh
+	  Updating ~/.opam/opam-init/init.csh
+	  Updating ~/.opam/opam-init/init.fish
+
+	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+	1. To configure OPAM in the current shell session, you need to run:
+
+	      eval `opam config env`
+
+	2. To correctly configure OPAM for subsequent use, add the following
+	   line to your profile file (for instance ~/.profile):
+
+	      . /home/staffsi/almeroth/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+
+	3. To avoid issues related to non-system installations of `ocamlfind`
+	   add the following lines to ~/.ocamlinit (create it if necessary):
+
+	      let () =
+		try Topdirs.dir_directory (Sys.getenv "OCAML_TOPLEVEL_PATH")
+		with Not_found -> ()
+	      ;;
+
+	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+	almeroth@almeroth:~$ opam install coq-mathcom-ssreflect
+	[ERROR] No package named coq-mathcom-ssreflect found.
+	almeroth@almeroth:~$ opam repo add coq-released https://coq.iniria.fr/opam/released
+	[ERROR] Could not fetch repo
+	almeroth@almeroth:~$ opam repo add coq-released https://coq.inria.fr/opam/released
+	[coq-released] synchronized from https://coq.inria.fr/opam/released
+	[NOTE] The repository 'coq-released' will be *permanently* redirected to
+	       https://coq.github.io/opam-coq-archive/released-opam1.2 (opam-version <
+	       "2.0~")
+	[coq-released] synchronized from https://coq.github.io/opam-coq-archive/released-opam1.2
+	almeroth@almeroth:~$ opam install coq-mathcomp-ssreflect
+	The following actions will be performed:
+	  ∗  install camlp5                 7.06      [required by coq]
+	  ∗  install conf-m4                1         [required by ocamlfind]
+	  ∗  install base-num               base      [required by num]
+	  ∗  install ocamlfind              1.8.0     [required by coq]
+	  ∗  install num                    0         [required by coq]
+	  ∗  install coq                    8.9.0     [required by coq-mathcomp-ssreflect]
+	  ∗  install coq-mathcomp-ssreflect 1.7.0
+	===== ∗  7 =====
+	Do you want to continue ? [Y/n] y
+
+	=-=- Gathering sources =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+	[coq-released] https://coq.github.io/opam-coq-archive/released-opam1.2/archives/coq.8.9.0+opam.tar.gz downloaded
+	[coq-released] https://coq.github.io/opam-coq-archive/released-opam1.2/archives/coq-mathcomp-ssreflect.1.7.0+opam.tar.gz downloaded
+	[default] https://opam.ocaml.org/1.2.2/archives/camlp5.7.06+opam.tar.gz downloaded
+	[default] https://opam.ocaml.org/1.2.2/archives/ocamlfind.1.8.0+opam.tar.gz downloaded
+
+	=-=- Processing actions -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+	∗  installed base-num.base
+	∗  installed num.0
+	∗  installed conf-m4.1
+	∗  installed ocamlfind.1.8.0
+	∗  installed camlp5.7.06
+	∗  installed coq.8.9.0
+	∗  installed coq-mathcomp-ssreflect.1.7.0
+	Done.
+	almeroth@almeroth:~$ 
+
+
+
+
+
+
+
+
+
+
+	-------------------------------------------
+	 
+
+startedt coq ide in my home directory.
+opend /home/staff/almeroth/Dokumente/Forschung/prosa/test.v in coqide.
+errormessgae: coq-top died badly.
+ 
+	 
