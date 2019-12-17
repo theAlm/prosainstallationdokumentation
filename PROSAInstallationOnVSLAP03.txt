@@ -1,0 +1,586 @@
+tanja@vslap03:~$ ls -la
+insgesamt 140
+drwxr-xr-x 23 tanja tanja 4096 Dez 12 17:20 .
+drwxr-xr-x  4 root  root  4096 Nov 25 19:18 ..
+-rw-------  1 tanja tanja 2926 Dez 16 18:59 .bash_history
+-rw-r--r--  1 tanja tanja  220 Nov 25 19:18 .bash_logout
+-rw-r--r--  1 tanja tanja 3771 Nov 25 19:18 .bashrc
+drwxr-xr-x  2 tanja tanja 4096 Nov 26 13:30 Bilder
+drwx------ 16 tanja tanja 4096 Dez 12 18:42 .cache
+drwx------ 27 tanja tanja 4096 Dez 12 16:40 .config
+drwxr-xr-x  2 tanja tanja 4096 Nov 26 13:30 Dokumente
+drwxr-xr-x  2 tanja tanja 4096 Nov 26 13:30 Downloads
+drwx------  3 tanja tanja 4096 Nov 26 13:31 .emacs.d
+-rw-r--r--  1 tanja tanja 8980 Nov 25 19:18 examples.desktop
+drwx------  3 tanja tanja 4096 Nov 26 13:30 .gnupg
+-rw-rw-r--  1 tanja tanja   29 Dez  9 15:04 .gtk-bookmarks
+drwxr-xr-x  2 tanja tanja 4096 Dez 10 18:59 HomeHSRM
+-rw-r--r--  1 tanja tanja  416 Dez 11 11:33 HowToMountHSRM
+-rw-------  1 tanja tanja 1932 Dez 11 10:08 .ICEauthority
+drwx------  3 tanja tanja 4096 Nov 26 13:30 .local
+drwxr-xr-x  3 tanja tanja 4096 Dez 10 18:14 .mono
+drwx------  5 tanja tanja 4096 Dez  9 12:11 .mozilla
+drwxr-xr-x  2 tanja tanja 4096 Nov 26 13:30 Musik
+drwxrwxr-x  8 tanja tanja 4096 Dez 17 10:53 Nextcloud
+drwxr-xr-x  2 tanja tanja 4096 Nov 26 13:30 Öffentlich
+drwxr-xr-x  5 tanja tanja 4096 Nov 25 19:19 .opam
+drwx------  3 tanja tanja 4096 Dez  9 14:56 .pki
+-rw-r--r--  1 tanja tanja  947 Nov 25 19:19 .profile
+-rw-r--r--  1 tanja tanja  495 Dez 12 18:18 .recently-used
+drwxr-xr-x  2 tanja tanja 4096 Dez 12 18:42 Schreibtisch
+drwx------  2 tanja tanja 4096 Dez 11 10:22 .ssh
+-rw-r--r--  1 tanja tanja    0 Dez  9 13:27 .sudo_as_admin_successful
+drwx------  5 tanja tanja 4096 Dez  9 14:00 .thunderbird
+-rw-r--r--  1 tanja tanja    0 Dez 11 11:34 Unnamed_coqscript_1.crashcoqide
+drwxr-xr-x  2 tanja tanja 4096 Nov 26 13:30 Videos
+-rw-------  1 tanja tanja  898 Dez  9 17:47 .viminfo
+drwxr-xr-x  2 tanja tanja 4096 Nov 26 13:30 Vorlagen
+-rw-------  1 tanja tanja    0 Dez 10 18:14 .xsel.log
+tanja@vslap03:~$ cd ..
+tanja@vslap03:/home$ ls -la
+insgesamt 16
+drwxr-xr-x  4 root  root  4096 Nov 25 19:18 .
+drwxr-xr-x 24 root  root  4096 Dez  9 13:38 ..
+drwxr-xr-x 20 dopsy dopsy 4096 Nov 25 19:15 dopsy
+drwxr-xr-x 23 tanja tanja 4096 Dez 12 17:20 tanja
+tanja@vslap03:/home$ cd ..
+tanja@vslap03:/$ ls -la
+insgesamt 2097264
+drwxr-xr-x  24 root root       4096 Dez  9 13:38 .
+drwxr-xr-x  24 root root       4096 Dez  9 13:38 ..
+drwxr-xr-x   2 root root       4096 Dez  9 13:36 bin
+drwxr-xr-x   4 root root       4096 Dez  9 13:39 boot
+drwxrwxr-x   2 root root       4096 Nov 25 16:13 cdrom
+drwxr-xr-x  21 root root       4640 Dez 17 10:51 dev
+drwxr-xr-x 147 root root      12288 Dez 12 16:21 etc
+drwxr-xr-x   4 root root       4096 Nov 25 19:18 home
+lrwxrwxrwx   1 root root         32 Dez  9 13:38 initrd.img -> boot/initrd.img-5.0.0-37-generic
+lrwxrwxrwx   1 root root         32 Dez  9 13:38 initrd.img.old -> boot/initrd.img-5.0.0-36-generic
+drwxr-xr-x  21 root root       4096 Nov 25 16:14 lib
+drwxr-xr-x   2 root root       4096 Aug  5 20:58 lib64
+drwx------   2 root root      16384 Nov 25 16:11 lost+found
+drwxr-xr-x   3 root root       4096 Dez  9 17:34 media
+drwxr-xr-x   2 root root       4096 Aug  5 20:58 mnt
+drwxr-xr-x   5 root root       4096 Dez 10 18:04 opt
+dr-xr-xr-x 286 root root          0 Dez 11 10:06 proc
+drwx------   7 root root       4096 Nov 25 18:40 root
+drwxr-xr-x  33 root root        960 Dez 17 10:52 run
+drwxr-xr-x   2 root root      12288 Dez  9 13:37 sbin
+drwxr-xr-x  11 root root       4096 Nov 25 17:19 snap
+drwxr-xr-x   2 root root       4096 Aug  5 20:58 srv
+-rw-------   1 root root 2147483648 Nov 25 16:11 swapfile
+dr-xr-xr-x  13 root root          0 Dez 11 10:06 sys
+drwxrwxrwt  22 root root       4096 Dez 17 10:59 tmp
+drwxr-xr-x  12 root root       4096 Nov 25 18:11 usr
+drwxr-xr-x  14 root root       4096 Aug  5 21:11 var
+lrwxrwxrwx   1 root root         29 Dez  9 13:38 vmlinuz -> boot/vmlinuz-5.0.0-37-generic
+lrwxrwxrwx   1 root root         29 Dez  9 13:38 vmlinuz.old -> boot/vmlinuz-5.0.0-36-generic
+tanja@vslap03:/$ cd
+tanja@vslap03:~$ mkdir ~/dev; cd ~/dev
+tanja@vslap03:~/dev$ wget http://prosa.mpi-sws.org/releases/v0.1/prosa_v01.zip
+--2019-12-17 11:04:46--  http://prosa.mpi-sws.org/releases/v0.1/prosa_v01.zip
+Auflösen des Hostnamens prosa.mpi-sws.org (prosa.mpi-sws.org) … 139.19.206.139
+Verbindungsaufbau zu prosa.mpi-sws.org (prosa.mpi-sws.org)|139.19.206.139|:80 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 252039 (246K) [application/zip]
+Wird in »prosa_v01.zip« gespeichert.
+
+prosa_v01.zip       100%[===================>] 246,13K  --.-KB/s    in 0,08s   
+
+2019-12-17 11:04:46 (3,14 MB/s) - »prosa_v01.zip« gespeichert [252039/252039]
+
+tanja@vslap03:~/dev$ unzip prosa_v01.zip
+Archive:  prosa_v01.zip
+   creating: prosa/
+ extracting: prosa/_CoqProject       
+   creating: prosa/analysis/
+   creating: prosa/analysis/basic/
+  inflating: prosa/analysis/basic/bertogna_edf_comp.v  
+  inflating: prosa/analysis/basic/bertogna_edf_theory.v  
+  inflating: prosa/analysis/basic/bertogna_fp_comp.v  
+  inflating: prosa/analysis/basic/bertogna_fp_theory.v  
+  inflating: prosa/analysis/basic/interference_bound.v  
+  inflating: prosa/analysis/basic/interference_bound_edf.v  
+  inflating: prosa/analysis/basic/interference_bound_fp.v  
+  inflating: prosa/analysis/basic/workload_bound.v  
+   creating: prosa/analysis/jitter/
+  inflating: prosa/analysis/jitter/bertogna_edf_comp.v  
+  inflating: prosa/analysis/jitter/bertogna_edf_theory.v  
+  inflating: prosa/analysis/jitter/bertogna_fp_comp.v  
+  inflating: prosa/analysis/jitter/bertogna_fp_theory.v  
+  inflating: prosa/analysis/jitter/interference_bound.v  
+  inflating: prosa/analysis/jitter/interference_bound_edf.v  
+  inflating: prosa/analysis/jitter/interference_bound_fp.v  
+  inflating: prosa/analysis/jitter/workload_bound.v  
+   creating: prosa/analysis/parallel/
+  inflating: prosa/analysis/parallel/bertogna_edf_comp.v  
+  inflating: prosa/analysis/parallel/bertogna_edf_theory.v  
+  inflating: prosa/analysis/parallel/bertogna_fp_comp.v  
+  inflating: prosa/analysis/parallel/bertogna_fp_theory.v  
+  inflating: prosa/analysis/parallel/interference_bound.v  
+  inflating: prosa/analysis/parallel/interference_bound_edf.v  
+  inflating: prosa/analysis/parallel/interference_bound_fp.v  
+  inflating: prosa/analysis/parallel/workload_bound.v  
+  inflating: prosa/create_makefile.sh  
+   creating: prosa/doc/
+  inflating: prosa/doc/guidelines.md  
+  inflating: prosa/doc/tactics.md    
+   creating: prosa/implementation/
+   creating: prosa/implementation/basic/
+  inflating: prosa/implementation/basic/arrival_sequence.v  
+  inflating: prosa/implementation/basic/bertogna_edf_example.v  
+  inflating: prosa/implementation/basic/job.v  
+  inflating: prosa/implementation/basic/schedule.v  
+  inflating: prosa/implementation/basic/task.v  
+   creating: prosa/implementation/jitter/
+  inflating: prosa/implementation/jitter/arrival_sequence.v  
+  inflating: prosa/implementation/jitter/bertogna_edf_example.v  
+  inflating: prosa/implementation/jitter/job.v  
+  inflating: prosa/implementation/jitter/schedule.v  
+  inflating: prosa/implementation/jitter/task.v  
+  inflating: prosa/Makefile          
+   creating: prosa/model/
+   creating: prosa/model/basic/
+  inflating: prosa/model/basic/arrival_sequence.v  
+  inflating: prosa/model/basic/interference.v  
+  inflating: prosa/model/basic/interference_edf.v  
+  inflating: prosa/model/basic/job.v  
+  inflating: prosa/model/basic/jobin_eqdec.v  
+  inflating: prosa/model/basic/platform.v  
+  inflating: prosa/model/basic/platform_fp.v  
+  inflating: prosa/model/basic/priority.v  
+  inflating: prosa/model/basic/response_time.v  
+  inflating: prosa/model/basic/schedulability.v  
+  inflating: prosa/model/basic/schedule.v  
+  inflating: prosa/model/basic/task.v  
+  inflating: prosa/model/basic/task_arrival.v  
+  inflating: prosa/model/basic/time.v  
+  inflating: prosa/model/basic/workload.v  
+   creating: prosa/model/jitter/
+  inflating: prosa/model/jitter/arrival_sequence.v  
+  inflating: prosa/model/jitter/interference.v  
+  inflating: prosa/model/jitter/interference_edf.v  
+  inflating: prosa/model/jitter/job.v  
+  inflating: prosa/model/jitter/platform.v  
+  inflating: prosa/model/jitter/platform_fp.v  
+  inflating: prosa/model/jitter/priority.v  
+  inflating: prosa/model/jitter/response_time.v  
+  inflating: prosa/model/jitter/schedulability.v  
+  inflating: prosa/model/jitter/schedule.v  
+  inflating: prosa/model/jitter/task.v  
+  inflating: prosa/model/jitter/task_arrival.v  
+  inflating: prosa/model/jitter/time.v  
+  inflating: prosa/model/jitter/workload.v  
+  inflating: prosa/README.md         
+   creating: prosa/util/
+  inflating: prosa/util/all.v        
+  inflating: prosa/util/bigcat.v     
+  inflating: prosa/util/bigord.v     
+  inflating: prosa/util/counting.v   
+  inflating: prosa/util/divround.v   
+  inflating: prosa/util/exists.v     
+  inflating: prosa/util/fixedpoint.v  
+  inflating: prosa/util/induction.v  
+  inflating: prosa/util/list.v       
+  inflating: prosa/util/nat.v        
+  inflating: prosa/util/notation.v   
+  inflating: prosa/util/powerset.v   
+  inflating: prosa/util/sorting.v    
+  inflating: prosa/util/ssromega.v   
+  inflating: prosa/util/sum.v        
+  inflating: prosa/util/tactics.v    
+tanja@vslap03:~/dev$ cd ~/dev/prosa/
+tanja@vslap03:~/dev/prosa$ make -j4
+"coqdep" -c -R "." rt "model/jitter/platform_fp.v" > "model/jitter/platform_fp.v.d" || ( RV=$?; rm -f "model/jitter/platform_fp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/response_time.v" > "model/jitter/response_time.v.d" || ( RV=$?; rm -f "model/jitter/response_time.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/arrival_sequence.v" > "model/jitter/arrival_sequence.v.d" || ( RV=$?; rm -f "model/jitter/arrival_sequence.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/job.v" > "model/jitter/job.v.d" || ( RV=$?; rm -f "model/jitter/job.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/workload.v" > "model/jitter/workload.v.d" || ( RV=$?; rm -f "model/jitter/workload.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/interference.v" > "model/jitter/interference.v.d" || ( RV=$?; rm -f "model/jitter/interference.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/interference_edf.v" > "model/jitter/interference_edf.v.d" || ( RV=$?; rm -f "model/jitter/interference_edf.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/priority.v" > "model/jitter/priority.v.d" || ( RV=$?; rm -f "model/jitter/priority.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/schedule.v" > "model/jitter/schedule.v.d" || ( RV=$?; rm -f "model/jitter/schedule.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/platform.v" > "model/jitter/platform.v.d" || ( RV=$?; rm -f "model/jitter/platform.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/task_arrival.v" > "model/jitter/task_arrival.v.d" || ( RV=$?; rm -f "model/jitter/task_arrival.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/task.v" > "model/jitter/task.v.d" || ( RV=$?; rm -f "model/jitter/task.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/schedulability.v" > "model/jitter/schedulability.v.d" || ( RV=$?; rm -f "model/jitter/schedulability.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/jitter/time.v" > "model/jitter/time.v.d" || ( RV=$?; rm -f "model/jitter/time.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/platform_fp.v" > "model/basic/platform_fp.v.d" || ( RV=$?; rm -f "model/basic/platform_fp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/response_time.v" > "model/basic/response_time.v.d" || ( RV=$?; rm -f "model/basic/response_time.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/arrival_sequence.v" > "model/basic/arrival_sequence.v.d" || ( RV=$?; rm -f "model/basic/arrival_sequence.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/job.v" > "model/basic/job.v.d" || ( RV=$?; rm -f "model/basic/job.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/workload.v" > "model/basic/workload.v.d" || ( RV=$?; rm -f "model/basic/workload.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/interference.v" > "model/basic/interference.v.d" || ( RV=$?; rm -f "model/basic/interference.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/interference_edf.v" > "model/basic/interference_edf.v.d" || ( RV=$?; rm -f "model/basic/interference_edf.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/priority.v" > "model/basic/priority.v.d" || ( RV=$?; rm -f "model/basic/priority.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/schedule.v" > "model/basic/schedule.v.d" || ( RV=$?; rm -f "model/basic/schedule.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/platform.v" > "model/basic/platform.v.d" || ( RV=$?; rm -f "model/basic/platform.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/task_arrival.v" > "model/basic/task_arrival.v.d" || ( RV=$?; rm -f "model/basic/task_arrival.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/task.v" > "model/basic/task.v.d" || ( RV=$?; rm -f "model/basic/task.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/schedulability.v" > "model/basic/schedulability.v.d" || ( RV=$?; rm -f "model/basic/schedulability.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "model/basic/time.v" > "model/basic/time.v.d" || ( RV=$?; rm -f "model/basic/time.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/workload_bound.v" > "analysis/jitter/workload_bound.v.d" || ( RV=$?; rm -f "analysis/jitter/workload_bound.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/bertogna_edf_theory.v" > "analysis/jitter/bertogna_edf_theory.v.d" || ( RV=$?; rm -f "analysis/jitter/bertogna_edf_theory.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/bertogna_fp_comp.v" > "analysis/jitter/bertogna_fp_comp.v.d" || ( RV=$?; rm -f "analysis/jitter/bertogna_fp_comp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/bertogna_edf_comp.v" > "analysis/jitter/bertogna_edf_comp.v.d" || ( RV=$?; rm -f "analysis/jitter/bertogna_edf_comp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/interference_bound.v" > "analysis/jitter/interference_bound.v.d" || ( RV=$?; rm -f "analysis/jitter/interference_bound.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/interference_bound_fp.v" > "analysis/jitter/interference_bound_fp.v.d" || ( RV=$?; rm -f "analysis/jitter/interference_bound_fp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/interference_bound_edf.v" > "analysis/jitter/interference_bound_edf.v.d" || ( RV=$?; rm -f "analysis/jitter/interference_bound_edf.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/jitter/bertogna_fp_theory.v" > "analysis/jitter/bertogna_fp_theory.v.d" || ( RV=$?; rm -f "analysis/jitter/bertogna_fp_theory.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/workload_bound.v" > "analysis/parallel/workload_bound.v.d" || ( RV=$?; rm -f "analysis/parallel/workload_bound.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/bertogna_edf_theory.v" > "analysis/parallel/bertogna_edf_theory.v.d" || ( RV=$?; rm -f "analysis/parallel/bertogna_edf_theory.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/bertogna_fp_comp.v" > "analysis/parallel/bertogna_fp_comp.v.d" || ( RV=$?; rm -f "analysis/parallel/bertogna_fp_comp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/bertogna_edf_comp.v" > "analysis/parallel/bertogna_edf_comp.v.d" || ( RV=$?; rm -f "analysis/parallel/bertogna_edf_comp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/interference_bound.v" > "analysis/parallel/interference_bound.v.d" || ( RV=$?; rm -f "analysis/parallel/interference_bound.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/interference_bound_fp.v" > "analysis/parallel/interference_bound_fp.v.d" || ( RV=$?; rm -f "analysis/parallel/interference_bound_fp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/interference_bound_edf.v" > "analysis/parallel/interference_bound_edf.v.d" || ( RV=$?; rm -f "analysis/parallel/interference_bound_edf.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/parallel/bertogna_fp_theory.v" > "analysis/parallel/bertogna_fp_theory.v.d" || ( RV=$?; rm -f "analysis/parallel/bertogna_fp_theory.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/workload_bound.v" > "analysis/basic/workload_bound.v.d" || ( RV=$?; rm -f "analysis/basic/workload_bound.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/bertogna_edf_theory.v" > "analysis/basic/bertogna_edf_theory.v.d" || ( RV=$?; rm -f "analysis/basic/bertogna_edf_theory.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/bertogna_fp_comp.v" > "analysis/basic/bertogna_fp_comp.v.d" || ( RV=$?; rm -f "analysis/basic/bertogna_fp_comp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/bertogna_edf_comp.v" > "analysis/basic/bertogna_edf_comp.v.d" || ( RV=$?; rm -f "analysis/basic/bertogna_edf_comp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/interference_bound.v" > "analysis/basic/interference_bound.v.d" || ( RV=$?; rm -f "analysis/basic/interference_bound.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/interference_bound_fp.v" > "analysis/basic/interference_bound_fp.v.d" || ( RV=$?; rm -f "analysis/basic/interference_bound_fp.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/interference_bound_edf.v" > "analysis/basic/interference_bound_edf.v.d" || ( RV=$?; rm -f "analysis/basic/interference_bound_edf.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "analysis/basic/bertogna_fp_theory.v" > "analysis/basic/bertogna_fp_theory.v.d" || ( RV=$?; rm -f "analysis/basic/bertogna_fp_theory.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/jitter/arrival_sequence.v" > "implementation/jitter/arrival_sequence.v.d" || ( RV=$?; rm -f "implementation/jitter/arrival_sequence.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/jitter/job.v" > "implementation/jitter/job.v.d" || ( RV=$?; rm -f "implementation/jitter/job.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/jitter/schedule.v" > "implementation/jitter/schedule.v.d" || ( RV=$?; rm -f "implementation/jitter/schedule.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/jitter/task.v" > "implementation/jitter/task.v.d" || ( RV=$?; rm -f "implementation/jitter/task.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/jitter/bertogna_edf_example.v" > "implementation/jitter/bertogna_edf_example.v.d" || ( RV=$?; rm -f "implementation/jitter/bertogna_edf_example.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/basic/arrival_sequence.v" > "implementation/basic/arrival_sequence.v.d" || ( RV=$?; rm -f "implementation/basic/arrival_sequence.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/basic/job.v" > "implementation/basic/job.v.d" || ( RV=$?; rm -f "implementation/basic/job.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/basic/schedule.v" > "implementation/basic/schedule.v.d" || ( RV=$?; rm -f "implementation/basic/schedule.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/basic/task.v" > "implementation/basic/task.v.d" || ( RV=$?; rm -f "implementation/basic/task.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "implementation/basic/bertogna_edf_example.v" > "implementation/basic/bertogna_edf_example.v.d" || ( RV=$?; rm -f "implementation/basic/bertogna_edf_example.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/counting.v" > "util/counting.v.d" || ( RV=$?; rm -f "util/counting.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/divround.v" > "util/divround.v.d" || ( RV=$?; rm -f "util/divround.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/sum.v" > "util/sum.v.d" || ( RV=$?; rm -f "util/sum.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/induction.v" > "util/induction.v.d" || ( RV=$?; rm -f "util/induction.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/exists.v" > "util/exists.v.d" || ( RV=$?; rm -f "util/exists.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/bigord.v" > "util/bigord.v.d" || ( RV=$?; rm -f "util/bigord.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/tactics.v" > "util/tactics.v.d" || ( RV=$?; rm -f "util/tactics.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/sorting.v" > "util/sorting.v.d" || ( RV=$?; rm -f "util/sorting.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/all.v" > "util/all.v.d" || ( RV=$?; rm -f "util/all.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/powerset.v" > "util/powerset.v.d" || ( RV=$?; rm -f "util/powerset.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/list.v" > "util/list.v.d" || ( RV=$?; rm -f "util/list.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/notation.v" > "util/notation.v.d" || ( RV=$?; rm -f "util/notation.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/nat.v" > "util/nat.v.d" || ( RV=$?; rm -f "util/nat.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/bigcat.v" > "util/bigcat.v.d" || ( RV=$?; rm -f "util/bigcat.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/ssromega.v" > "util/ssromega.v.d" || ( RV=$?; rm -f "util/ssromega.v.d"; exit ${RV} )
+"coqdep" -c -R "." rt "util/fixedpoint.v" > "util/fixedpoint.v.d" || ( RV=$?; rm -f "util/fixedpoint.v.d"; exit ${RV} )
+"coqc"  -q  -R "." rt   util/tactics
+"coqc"  -q  -R "." rt   util/ssromega
+"coqc"  -q  -R "." rt   util/notation
+"coqc"  -q  -R "." rt   util/divround
+Warning: File "./util/divround" has been implicitly expanded to
+"./util/divround.v" [file-no-extension,filesystem]
+Warning: File "./util/notation" has been implicitly expanded to
+"./util/notation.v" [file-no-extension,filesystem]
+Warning: File "./util/tactics" has been implicitly expanded to
+"./util/tactics.v" [file-no-extension,filesystem]
+Warning: File "./util/ssromega" has been implicitly expanded to
+"./util/ssromega.v" [file-no-extension,filesystem]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "[ rel _ _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "[ rel _ _ : _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "[ rel _ _ in _ & _ | _ ]" was already used in scope
+fun_scope. [notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "[ rel _ _ in _ & _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "[ rel _ _ in _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "[ rel _ _ in _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ + _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ - _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ >= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ > _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ <= _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ < _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ <= _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ < _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/ssromega.v", line 1, characters 0-72:
+Warning: Notation "_ * _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "[ rel _ _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "[ rel _ _ : _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "[ rel _ _ in _ & _ | _ ]" was already used in scope
+fun_scope. [notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "[ rel _ _ in _ & _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "[ rel _ _ in _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "[ rel _ _ in _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ + _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ - _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ >= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ > _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ <= _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ < _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ <= _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ < _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/divround.v", line 1, characters 0-48:
+Warning: Notation "_ * _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ : _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ & _ | _ ]" was already used in scope
+fun_scope. [notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ & _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "[ rel _ _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "[ rel _ _ : _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "[ rel _ _ in _ & _ | _ ]" was already used in scope
+fun_scope. [notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "[ rel _ _ in _ & _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "[ rel _ _ in _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "[ rel _ _ in _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ + _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ - _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ >= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ > _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ <= _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ < _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ <= _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ < _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ * _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ + _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ - _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ >= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ > _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ <= _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ < _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ <= _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ < _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/notation.v", line 1, characters 0-79:
+Warning: Notation "_ * _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+"coqc"  -q  -R "." rt   model/basic/time
+Warning: File "./model/basic/time" has been implicitly expanded to
+"./model/basic/time.v" [file-no-extension,filesystem]
+File "./util/tactics.v", line 102, characters 7-35:
+Warning: "intros until 0" is deprecated, use "intros *"; instead of
+"induction 0" and "destruct 0" use explicitly a name."
+[deprecated-intros-until-0,tactics]
+File "./util/ssromega.v", line 2, characters 0-21:
+Warning: Notation "_ ^ _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 120, characters 0-65:
+Warning: Adding and removing hints in the core database implicitly is
+deprecated. Please specify a hint database.
+[implicit-core-hint-db,deprecated]
+File "./util/tactics.v", line 199, characters 0-1023:
+Warning: Collision between bound variables of name x
+[variable-collision,ltac]
+"coqc"  -q  -R "." rt   model/jitter/time
+File "./util/tactics.v", line 415, characters 31-32:
+Error:
+Syntax error: 'with' expected after [tactic:tactic_expr] (in [tactic:tactic_expr]).
+
+Makefile:337: recipe for target 'util/tactics.vo' failed
+make: *** [util/tactics.vo] Error 1
+make: *** Auf noch nicht beendete Prozesse wird gewartet …
+Warning: File "./model/jitter/time" has been implicitly expanded to
+"./model/jitter/time.v" [file-no-extension,filesystem]
+tanja@vslap03:~/dev/prosa$ make -j4
+"coqc"  -q  -R "." rt   util/tactics
+Warning: File "./util/tactics" has been implicitly expanded to
+"./util/tactics.v" [file-no-extension,filesystem]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ : _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ & _ | _ ]" was already used in scope
+fun_scope. [notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ & _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ | _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "[ rel _ _ in _ ]" was already used in scope fun_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ + _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ - _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ >= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ > _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ <= _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ < _ <= _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ <= _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ < _ < _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 14, characters 0-67:
+Warning: Notation "_ * _" was already used in scope nat_scope.
+[notation-overridden,parsing]
+File "./util/tactics.v", line 102, characters 7-35:
+Warning: "intros until 0" is deprecated, use "intros *"; instead of
+"induction 0" and "destruct 0" use explicitly a name."
+[deprecated-intros-until-0,tactics]
+File "./util/tactics.v", line 120, characters 0-65:
+Warning: Adding and removing hints in the core database implicitly is
+deprecated. Please specify a hint database.
+[implicit-core-hint-db,deprecated]
+File "./util/tactics.v", line 199, characters 0-1023:
+Warning: Collision between bound variables of name x
+[variable-collision,ltac]
+File "./util/tactics.v", line 415, characters 31-32:
+Error:
+Syntax error: 'with' expected after [tactic:tactic_expr] (in [tactic:tactic_expr]).
+
+Makefile:337: recipe for target 'util/tactics.vo' failed
+make: *** [util/tactics.vo] Error 1
