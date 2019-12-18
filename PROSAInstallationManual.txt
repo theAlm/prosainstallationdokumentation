@@ -6,3 +6,5 @@ install PROSA from http://prosa.mpi-sws.org/get-prosa.html#theprosarepository
 
 http://prosa.mpi-sws.org/get-started.html
 http://prosa.mpi-sws.org/get-started.html#essentialsyntaxprimer
+
+https://prosa.mpi-sws.org/releases/vm/boot/index.html
