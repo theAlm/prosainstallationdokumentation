@@ -239,7 +239,7 @@ this is how I actaully installed the mathematical components library:
 
 
 
-	-------------------------------------------
+-------------------------------------------
 	 
 
 startedt coq ide in my home directory.
@@ -248,13 +248,15 @@ errormessgae: coq-top died badly.
 
 
 ---------------------------------------
- 
+ 18.12.2019 
 
-TODO: see at http://prosa.mpi-sws.org/releases/v0.1/artifact/
-      proceed with step 2. compiling PROSA  
+Did what was written on http://prosa.mpi-sws.org/releases/v0.1/artifact/, i.e., 
+      proceed with step 2. compiling PROSA and got an error message: 
+      
+TODO: copy this error message from the computer. ( i.e. make)
 
 	 
-------------------------------------------
+Started installing PROSA on the new Computer ( Think-Pad T470s with Ubuntu Bionic Beaver).
 
 TODO maybe: read this http://prosa.mpi-sws.org/releases/v0.1/artifact/
 
