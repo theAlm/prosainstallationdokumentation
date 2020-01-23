@@ -1,0 +1,223 @@
+coqille did not run on manjaro due to unknown reasons. We followed the instructions.
+Might be due to the differnt pakage-Manager pacman or the installation of my working version.
+
+
+Let's try Visual-Studio-Code scince it was used before. Probably on another linux-ditributeion.
+Brendon Chritsy has been using VS-Code with a Coq-(extension?).
+-> Look up his instructions. /WIKI entry. I would guess that he had been using a linux-distribution with 
+apt-get package manager. i.e. a deian-child but I am not certain... I hould check or ask him.
+
+
+
+Let's get VS-Code
+
+First:
+Install snap on a manjaro: 
+
+
+https://snapcraft.io/install/code/manjaro
+
+Konsole-history
+ sudo pacman -S snaped
+  492  sudo systemctl enable --now snapd.socket
+  493  sudo pacman -S snapd
+  494  sudo systemctl enable --now snapd.socket
+  495  sudo ln -s /var/lib/snapd/snap /snap  
+
+Rebooted System using the GUI
+  
+  496  sudo snap install code --classic
+  497  sudo snap install code --classic
+
+  
+Got this output by: ;-)
+
+  498  history
+
+  
+Let's get a Coq-extension, which supports Coq. Yesterday (26.09.2019) There was an actifity on this repositrory three day's ago:
+
+
+https://github.com/coq-community/vscoq.git 
+
+geclont aber das Installieren hat nicht funktioniert wegen mir unbekannten Gründen: Vermutlich, wegen meines Package-managers pacman and compability problems.
+
+
+[tanja@tanja-joergenT460s Desktop]$ git clone https://github.com/coq-community/vscoq.git
+Cloning into 'vscoq'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (14/14), done.
+Receiving objects:  76% (3059/4024), 1.01 MReceiving objects:  77% (3099/4024), 1.01 MReceiving objects:  78% (3139/4024), 1.01 MReceiving objects:  79% (3179/4024), 1.01 MReceiving objects:  80% (3220/4024), 1.01 MReceiving objects:  81% (3260/4024), 1.01 MReceiving objects:  82% (3300/4024), 1.01 MReceiving objects:  83% (3340/4024), 1.01 MReceiving objects:  84% (3381/4024), 1.01 MReceiving objects:  85% (3421/4024), 1.01 MReceiving objects:  86% (3461/4024), 1.01 MReceiving objects:  87% (3501/4024), 1.01 MReceiving objects:  88% (3542/4024), 1.01 MReceiving objects:  89% (3582/4024), 1.01 MReceiving objects:  90% (3622/4024), 1.01 MReceiving objects:  91% (3662/4024), 1.01 MReceiving objects:  92% (3703/4024), 1.01 MReceiving objects:  93% (3743/4024), 1.01 MReceiving objects:  94% (3783/4024), 1.01 MReceiving objects:  95% (3823/4024), 1.01 MReceiving objects:  96% (3864/4024), 1.01 MReceiving objects:  97% (3904/4024), 1.01 MReceiving objects:  98% (3944/4024), 1.01 MReceiving objects:  99% (3984/4024), 1.01 Mremote: Total 4024 (delta 5), reused 10 (delta 3), pack-reused 4007
+Receiving objects: 100% (4024/4024), 1.01 MReceiving objects: 100% (4024/4024), 1.90 MiB | 2.40 MiB/s, done.
+Resolving deltas: 100% (2832/2832), done.
+[tanja@tanja-joergenT460s Desktop]$ ls
+xxxx
+xxxx
+xxx my untideied desktop xxxx
+ vscoq
+xxx
+[tanja@tanja-joergenT460s Desktop]$ cd vscoq
+[tanja@tanja-joergenT460s vscoq]$ ls
+CHANGELOG.md    html_views   server
+client          License.txt  TODO.md
+CoqProtocol.md  Makefile
+default.nix     README.md
+[tanja@tanja-joergenT460s vscoq]$ kate README.md 
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[tanja@tanja-joergenT460s vscoq]$ kate makefile
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[tanja@tanja-joergenT460s vscoq]$ kate Makefile
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[tanja@tanja-joergenT460s vscoq]$ makefile
+bash: makefile: command not found
+[tanja@tanja-joergenT460s vscoq]$ make
+make
+make4ht
+makealias
+makecert
+makeconv
+makedb
+makedtx
+makeglossaries
+makeglossaries-lite
+makehrtf
+makeindex
+makeinfo
+makejvf
+makekdewidgets
+makeobj
+makepage
+makepkg
+makepkg-template
+make_pysol_freecell_board.py
+make_torrent
+[tanja@tanja-joergenT460s vscoq]$ ./Makefile
+bash: ./Makefile: Permission denied
+[tanja@tanja-joergenT460s vscoq]$ sudo ./Makefile
+[sudo] password for tanja: 
+sudo: ./Makefile: command not found
+[tanja@tanja-joergenT460s vscoq]$ sudo ./Makefile
+sudo: ./Makefile: command not found
+[tanja@tanja-joergenT460s vscoq]$ sudo Makefile  
+sudo: Makefile: command not found
+[tanja@tanja-joergenT460s vscoq]$ sudo Makefile
+sudo: Makefile: command not found
+[tanja@tanja-joergenT460s vscoq]$ makepkg -s
+==> ERROR: PKGBUILD does not exist.
+[tanja@tanja-joergenT460s vscoq]$ makepkg -h
+makepkg (pacman) 5.1.3
+
+Make packages compatible for use with pacman
+
+Usage: /usr/bin/makepkg [options]
+
+Options:
+  -A, --ignorearch Ignore incomplete arch field in PKGBUILD
+  -c, --clean      Clean up work files after build
+  -C, --cleanbuild Remove $srcdir/ dir before building the package
+  -d, --nodeps     Skip all dependency checks
+  -e, --noextract  Do not extract source files (use existing $srcdir/ dir)
+  -f, --force      Overwrite existing package
+  -g, --geninteg   Generate integrity checks for source files
+  -h, --help       Show this help message and exit
+  -i, --install    Install package after successful build
+  -L, --log        Log package build process
+  -m, --nocolor    Disable colorized output messages
+  -o, --nobuild    Download and extract files only
+  -p <file>        Use an alternate build script (instead of 'PKGBUILD')
+  -r, --rmdeps     Remove installed dependencies after a successful build
+  -R, --repackage  Repackage contents of the package without rebuilding
+  -s, --syncdeps   Install missing dependencies with pacman
+  -S, --source     Generate a source-only tarball without downloaded sources
+  -V, --version    Show version information and exit
+  --allsource      Generate a source-only tarball including downloaded sources
+  --check          Run the check() function in the PKGBUILD
+  --config <file>  Use an alternate config file (instead of '/etc/makepkg.conf')
+  --holdver        Do not update VCS sources
+  --key <key>      Specify a key to use for gpg signing instead of the default
+  --noarchive      Do not create package archive
+  --nocheck        Do not run the check() function in the PKGBUILD
+  --noprepare      Do not run the prepare() function in the PKGBUILD
+  --nosign         Do not create a signature for the package
+  --packagelist    Only list package filepaths that would be produced
+  --printsrcinfo   Print the generated SRCINFO and exit
+  --sign           Sign the resulting package with gpg
+  --skipchecksu 100ANDRO
+ xxxxxxxxxx
+ 
+ stuff from my desktop
+ 
+ 
+ xxxxxxxxxx
+ story
+ VBLms  Do not verify checksums of the source files
+  --skipinteg      Do not perform any verification checks on source files
+  --skippgpcheck   Do not verify source files with PGP signatures
+  --verifysource   Download source files (if needed) and perform integrity checks
+
+These options can be passed to pacman:
+
+  --asdeps         Install packages as non-explicitly installed
+  --needed         Do not reinstall the targets that are already up to date
+  --noconfirm      Do not ask for confirmation when resolving dependencies
+  --noprogressbar  Do not show a progress bar when downloading files
+
+If -p is not specified, makepkg will look for 'PKGBUILD'
+
+[tanja@tanja-joergenT460s vscoq]$ ls
+CHANGELOG.md    default.nix  Makefile   TODO.md
+client          html_views   README.md
+CoqProtocol.md  License.txt  server
+[tanja@tanja-joergenT460s vscoq]$ ls
+CHANGELOG.md    default.nix  Makefile   TODO.md
+client          html_views   README.md
+CoqProtocol.md  License.txt  server
+[tanja@tanja-joergenT460s vscoq]$ 
+
+
+
+Dann hatte ich keine Lust mehr mich mit dem package-manger zu beschäftigen.
+
+
+
+Über den VS-Code market place
+ Coq in das suchfenster getrippt und auf VScoq installieren geklickt. 
+ 
+ Found a link to the setup of vscoq in the market place:
+ 
+    https://github.com/siegebell/vscoq/wiki/Setup
+    
+Locks usable. :-)
+-----------------------------------------------------------------------
+
+05.01.2019
+
+The syntax-highliting works if the "Basics.v" is opened.
+Tried the shorcuts from VS-Code but it didn't work.
+
+The window's startedt moving. Therefore this were probably some gnome 3 shortcuts evaluated. ( I am running a Linux manjaro with later installed gnome 3.)
+
+    ctrl+alt+down -> instead of step forward this moves to the below workspace
+    ctrl+alt+up -> instead of a step backward this moves to the above workspace
+    
+My system information:    
+    [tanja@tanja-joergenT460s /]$ cat /etc/lsb-release 
+        DISTRIB_ID=ManjaroLinux
+        DISTRIB_RELEASE=18.1.0
+        DISTRIB_CODENAME=Juhraya
+        DISTRIB_DESCRIPTION="Manjaro Linux"
+
+
+ 
+ ----------------------------------------------------------------------
+ 
+ A new plan: 
+ TODO:VS-Code is advaidable in a repositrory of my Linux. Jonas told me this.
+ Deinstall the VS-Code and the plugin and snap ( I just read something about snap on the realease notes of my majaro). 
+ Install the version from your linux' respository.
+ 
+ 
+----------------------------------------------------------- 
+
+

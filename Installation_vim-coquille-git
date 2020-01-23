@@ -1,0 +1,77 @@
+ 
+ 04.10.2019
+ 
+ 
+ 
+ Google suggested some plugin from the AUR:
+ 
+ 
+ 
+Package Details: vim-coquille-git 3bd17ca-1
+Package Actions
+
+    View PKGBUILD / View Changes
+    Download snapshot
+    Search wiki
+    Flag package out-of-date
+    Vote for this package
+    Enable notifications
+    Submit Request
+
+Git Clone URL: 	https://aur.archlinux.org/vim-coquille-git.git (read-only)
+Package Base: 	vim-coquille-git
+Description: 	Vim plugin aiming to bring the interactivity of CoqIDE into your favorite editor.
+Upstream URL: 	https://github.com/the-lambda-church/coquille
+Licenses: 	ISC
+Submitter: 	vali
+Maintainer: 	None
+Last Packager: 	vali
+Votes: 	1
+Popularity: 	0.000000
+First Submitted: 	2016-07-13 10:29
+Last Updated: 	2016-07-13 10:29
+Dependencies (1)
+
+    vim-runtime (vim-light, vim-qt-git, vim-qt-qt5-git, neovim-drop-in, vim-runtime-git, gvim-gtk2)
+
+Required by (0)
+Sources (2)
+
+    vim-coquille-git
+    vimbufsync
+
+-------------------------------------------------------------------------------
+ 
+ 
+ We tried to install it: console output
+ 
+ 
+  562  git clone https://aur.archlinux.org/vim-coquille-git.git
+  563  ls
+  564  cd vim-coquille-git.git
+  565  cd vim-coquille-git
+  566  ls
+  567  makepkg
+  568  ls 
+  569  sudo pacman -U --nonconfirm vim-coquille-git-df24600-1-x86_64.pkg.tar.xz 
+  570  sudo pacman -U --nonconfirm vim-coquille-git-df24600-1-x86_64.pkg.tar.xz 
+  571  sudo pacman -U --nonconfirm vim-coquille-git
+  572  ls
+  573  sudo pacman -U --nonconfirm vim-coquille-git-df24600-1-x86_64.pkg.tar.xz 
+  574  sudo pacman -U vim-coquille-git-df24600-1-x86_64.pkg.tar.xz 
+  575  vim
+ 
+ -----------------------------------------------------------------------------
+
+ the option --nonconfirm was declared as unknown. Unfortunatly typing ":CoqLaunch" did not start the plugin.
+
+
+ 
+ 
+[tanja@tanja-joergenT460s lf]$ vim Basics.v
+
+ After calling :CoqLaunch in vim:
+ 
+ E492: Not an editor command: CoqLaunch
+
+ 
