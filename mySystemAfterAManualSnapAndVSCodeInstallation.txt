@@ -1,0 +1,66 @@
+
+
+
+
+tanja@tanja-joergenT460s ~]$ cd 
+[tanja@tanja-joergenT460s ~]$ ls
+Desktop    gitkraken  NHSRM     Recordings             Videos
+Documents  Gummi      Pictures  secondary-hard-drive   vpn.sh
+Downloads  HSRM       projects  snap
+Dropbox    Matlab     Public    Templates
+extend.sh  Music      R         troubleshoot-logs.txt
+[tanja@tanja-joergenT460s ~]$ cd ..
+[tanja@tanja-joergenT460s home]$ ls
+tanja
+[tanja@tanja-joergenT460s home]$ cd ..
+[tanja@tanja-joergenT460s /]$ ls
+bin   kde-image-pkgs.txt  mnt                  run   tmp
+boot  lib                 opt                  sbin  usr
+dev   lib64               proc                 snap  var
+etc   lost+found          root                 srv
+home  media               root-image-pkgs.txt  sys
+[tanja@tanja-joergenT460s /]$ cd ..
+[tanja@tanja-joergenT460s /]$ cd ..
+[tanja@tanja-joergenT460s /]$ ls
+bin   kde-image-pkgs.txt  mnt                  run   tmp
+boot  lib                 opt                  sbin  usr
+dev   lib64               proc                 snap  var
+etc   lost+found          root                 srv
+home  media               root-image-pkgs.txt  sys
+[tanja@tanja-joergenT460s /]$ ls -l
+total 96
+lrwxrwxrwx   1 root root     7 28. Aug 21:58 bin -> usr/bin
+drwxr-xr-x   5 root root  4096  8. Sep 10:17 boot
+drwxr-xr-x  19 root root  3500  2. Okt 11:30 dev
+drwxr-xr-x 111 root root 12288  4. Okt 14:09 etc
+drwxr-xr-x   3 root root  4096  7. Jul 15:25 home
+-rw-r--r--   1 root root 24274 27. Nov 2016  kde-image-pkgs.txt
+lrwxrwxrwx   1 root root     7 28. Aug 21:58 lib -> usr/lib
+lrwxrwxrwx   1 root root     7 28. Aug 21:58 lib64 -> usr/lib
+drwx------   2 root root 16384 15. Jan 2017  lost+found
+drwxr-xr-x   3 root root  4096 25. Apr 10:40 media
+drwxr-xr-x   2 root root  4096 30. Sep 2015  mnt
+drwxr-xr-x   5 root root  4096 14. Aug 08:08 opt
+dr-xr-xr-x 223 root root     0 25. Sep 14:51 proc
+drwxr-x---  13 root root  4096  1. Okt 12:01 root
+-rw-r--r--   1 root root  4976 27. Nov 2016  root-image-pkgs.txt
+drwxr-xr-x  31 root root   780  3. Okt 13:45 run
+lrwxrwxrwx   1 root root     7 28. Aug 21:58 sbin -> usr/bin
+lrwxrwxrwx   1 root root    19  2. Sep 08:52 snap -> /var/lib/snapd/snap
+drwxr-xr-x   4 root root  4096 30. Sep 2015  srv
+dr-xr-xr-x  13 root root     0 25. Sep 14:51 sys
+drwxrwxrwt  43 root root  1640  4. Okt 14:42 tmp
+drwxr-xr-x   9 root root  4096 30. Sep 23:25 usr
+drwxr-xr-x  14 root root  4096 26. Sep 18:32 var
+[tanja@tanja-joergenT460s /]$ rm .vim
+rm: cannot remove '.vim': Is a directory
+[tanja@tanja-joergenT460s /]$ rm -R .vim
+rm: remove write-protected directory '.vim'? y
+rm: cannot remove '.vim': Permission denied
+[tanja@tanja-joergenT460s /]$ rm -r .vim
+rm: remove write-protected directory '.vim'? y
+rm: cannot remove '.vim': Permission denied
+[tanja@tanja-joergenT460s /]$ sudo rm -r .vim
+[sudo] password for tanja: 
+[tanja@tanja-joergenT460s /]$ 
+ 
