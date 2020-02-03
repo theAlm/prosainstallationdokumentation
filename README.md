@@ -16,6 +16,12 @@ Content of this repository:
 	PROSAInstallationKONSOLEOnVSLAP.txt contains the installation documentation on the university laptop.
 
 	Installation_vim-coquille-git contains an installation documentation on my private laptop. 
+	mySystemAfterAManualSnapAndVSCodeInstallation.txt contains an overview of the changes after the installtions.
+	
+	
+	This is my recomenden installation-process:
+	
+	https://prosa.mpi-sws.org/releases/v0.1/artifact/
  
 
 
