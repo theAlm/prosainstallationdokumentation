@@ -2,7 +2,7 @@ This repository PROSAinstallation contains the documentation of my experinece in
 Note that it is a first draft only for archiving.
 
 
-It should be pointed ot that the writer could not make any installation of PROSAfrom the ECTRS 2016 Artefact run  except of installing the recomended and provided virual machine.
+It should be pointed out that the writer could not make any installation of PROSA from the ECTRS 2016 Artefact run  except of the recomended. It is provided bs a virual machine.
 
 Content of this repository:
 
